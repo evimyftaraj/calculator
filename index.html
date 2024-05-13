@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="screen">
+            <div id="last-screen"></div>
+            <div id="top-part">0</div>
+        </div>
+        <div id="top-buttons">
+            <button id="clear">CLEAR</button>
+            <button id="delete">DELETE</button>
+        </div>
+        <div id="calc-top">
+            <button id="btn" data-number>7</button>
+            <button id="btn" data-number>8</button>
+            <button id="btn" data-number>9</button>
+            <button id="equation-btn" data-operator>÷</button>
+        </div>
+        <div id="calc-middle">
+            <button id="btn" data-number>4</button>
+            <button id="btn" data-number>5</button>
+            <button id="btn" data-number>6</button>
+            <button id="equation-btn" data-operator>x</button>
+        </div>
+        <div id="calc-midbot">
+            <button id="btn" data-number>1</button>
+            <button id="btn" data-number>2</button>
+            <button id="btn" data-number>3</button>
+            <button id="equation-btn" data-operator>-</button>
+        </div>
+        <div id="calc-bottom">
+            <button id="point-btn">.</button>
+            <button id="btn" data-number>0</button>
+            <button id="equals-btn">=</button>
+            <button id="equation-btn" data-operator>+</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

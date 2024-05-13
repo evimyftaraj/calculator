@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/calculator');
+
+body {
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: "Calculator", sans-serif;
+    min-width: 100px;
+    min-height: 130px;
+}
+
+#container {
+    background-color: rgb(216, 215, 215);
+    padding: 20px;
+    margin: 30px;
+    /* width: 350px;
+    height: 480px; */
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+#top-part, #last-screen {
+    display: flex;
+    height: 50px;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 2px solid black;
+    padding: 2px 10px;
+    font-size: 40px;
+}
+
+#top-part {
+    border-top: none; 
+}
+
+#last-screen {
+    font-size: 20px;
+    border-bottom: none; 
+    height: 20px;
+}
+
+#top-buttons, #calc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#clear, #delete {
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    width: 170px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+#clear {
+    background-color: rgb(244, 138, 138);
+}
+
+#delete {
+    background-color: rgb(200, 240, 141);
+}
+
+#calc-top, #calc-middle, #calc-midbot, #calc-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+#btn, #equation-btn, #point-btn, #equals-btn {
+    padding: 10px;
+    align-items: center;
+    width: 70px;
+    font-size: 35px;
+    font-family: "Calculator", sans-serif;
+    font-weight: 200%;
+    border: 2px solid black;
+}
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.equation-btn-clicked {
+    background-color: rgb(94, 92, 92); 
+}
